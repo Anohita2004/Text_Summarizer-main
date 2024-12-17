@@ -1,10 +1,18 @@
+import setuptools
 from setuptools import setup, find_packages
+with open("README.md","r",encoding="utf-8")as f:
+    long_description= f.read()
+__version__="0.1.0"
 
+REPO_NAME= "Text-Summarizer-Main"
+AUTHOR_USER_NAME="Anohita2004"
+SRC_REPO="textSummariser" 
+AUTHOR_EMAIL="anohitamukherjee@gmail.com"   
 setup(
-    name="TextSummarizer",
-    version="0.1.0",
+    name=SRC_REPO,
+    version=__version__,
     description="A text summarization project",
-    author="Your Name",
+    author=AUTHOR_USER_NAME,
     packages=find_packages(),
     install_requires=[
         "transformers",
