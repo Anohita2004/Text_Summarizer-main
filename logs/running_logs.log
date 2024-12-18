@@ -108,3 +108,35 @@ AttributeError: 'DataIngestionConfig' object has no attribute 'download_file'
 [2024-12-18 12:50:55,006: INFO: main: >>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<
 
 x==============x]
+[2024-12-18 19:58:50,527: INFO: common: created directory at: artifacts]
+[2024-12-18 19:58:50,537: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-18 20:25:29,230: INFO: main: >>>>>>>>>stage Data Ingestion Stage started <<<<<<]
+[2024-12-18 20:25:29,254: INFO: common: created directory at: artifacts]
+[2024-12-18 20:25:29,256: INFO: data_ingestion: artifacts\data_ingestion\data.zip already exists.]
+[2024-12-18 20:25:29,549: INFO: data_ingestion: Extracted files to artifacts\data_ingestion]
+[2024-12-18 20:25:29,549: INFO: main: >>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<
+
+x==============x]
+[2024-12-18 20:25:29,550: INFO: main: >>>>>>>>>stage Data Validation Stage started <<<<<<]
+[2024-12-18 20:25:29,557: INFO: common: created directory at: artifacts]
+[2024-12-18 20:25:29,585: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-18 20:25:29,756: ERROR: main: 'DataValidation' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "main.py", line 26, in <module>
+    data_validation.main()
+  File "C:\Users\user\Downloads\Text_Summarizer-main\src\textSummariser\pipeline\stage_02_data_validation.py", line 20, in main
+    data_validation.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-12-18 20:28:25,301: INFO: main: >>>>>>>>>stage Data Ingestion Stage started <<<<<<]
+[2024-12-18 20:28:25,314: INFO: common: created directory at: artifacts]
+[2024-12-18 20:28:25,348: INFO: data_ingestion: artifacts\data_ingestion\data.zip already exists.]
+[2024-12-18 20:28:25,845: INFO: data_ingestion: Extracted files to artifacts\data_ingestion]
+[2024-12-18 20:28:25,849: INFO: main: >>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<
+
+x==============x]
+[2024-12-18 20:28:25,852: INFO: main: >>>>>>>>>stage Data Validation Stage started <<<<<<]
+[2024-12-18 20:28:25,990: INFO: common: created directory at: artifacts]
+[2024-12-18 20:28:26,110: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-18 20:28:26,211: INFO: main: >>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<
+
+x==============x]

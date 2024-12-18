@@ -34,6 +34,7 @@ sys.path.append(os.path.join(os.getcwd(), 'src'))
 from textSummariser.constants import *
 from textSummariser.utils.common import read_yaml, create_directories
 from textSummariser.entity import DataIngestionConfig
+from textSummariser.entity import DataValidationConfig
 
 class ConfigurationManager:
     def __init__(self, config_filepath=CONFIG_FILE_PATH, params_filepath=PARAMS_FILE_PATH):
@@ -58,4 +59,16 @@ class ConfigurationManager:
     # Method to get the DataIngestionConfig object
     def get_data_ingestion_config(self):
         return self.data_ingestion_config
+    
+    
+    def get_data_validation_config(self)-> DataValidationConfig:
+        config= self.config.data_validation
+        create_directories([config.root_dir])
         
+        data_validation_config = DataValidationConfig(
+            root_dir= config.root_dir,
+            STATUS_FILE= config.STATUS_FILE,
+            ALL_REQUIRED_FILES= config.ALL_REQUIRED_FILES
+        )  
+        
+        return data_validation_config     
