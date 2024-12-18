@@ -1,1 +1,110 @@
 [2024-12-17 17:23:45,682: INFO: main: Welcome to our custom logging]
+[2024-12-18 09:40:09,627: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 09:40:09,639: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 09:40:09,644: INFO: common: created directory at: artifacts]
+[2024-12-18 10:12:23,160: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:12:23,164: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:12:23,168: INFO: common: created directory at: artifacts]
+[2024-12-18 10:25:14,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:25:14,817: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:25:14,821: INFO: common: created directory at: artifacts]
+[2024-12-18 10:33:57,747: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:33:57,751: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:33:57,755: INFO: common: created directory at: artifacts]
+[2024-12-18 10:37:48,854: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:37:48,858: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:37:48,862: INFO: common: created directory at: artifacts]
+[2024-12-18 10:39:15,129: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:39:15,134: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:39:15,137: INFO: common: created directory at: artifacts]
+[2024-12-18 10:42:31,621: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:42:31,625: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:42:31,629: INFO: common: created directory at: artifacts]
+[2024-12-18 10:50:20,459: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:50:20,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:50:20,466: INFO: common: created directory at: artifacts]
+[2024-12-18 10:51:51,949: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:51:51,953: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:51:51,956: INFO: common: created directory at: artifacts]
+[2024-12-18 10:51:51,959: ERROR: 231272183: Error during data ingestion process: __init__() should return None, not 'DataIngestionConfig']
+[2024-12-18 10:54:35,483: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:54:35,487: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:54:35,490: INFO: common: created directory at: artifacts]
+[2024-12-18 10:54:35,493: ERROR: 231272183: Error during data ingestion process: name 'DataIngestion' is not defined]
+[2024-12-18 10:55:54,276: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 10:55:54,280: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 10:55:54,284: INFO: common: created directory at: artifacts]
+[2024-12-18 10:56:04,309: ERROR: 3674569962: Error during data ingestion process: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+[2024-12-18 11:00:10,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 11:00:10,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 11:00:10,469: INFO: common: created directory at: artifacts]
+[2024-12-18 11:00:16,511: ERROR: 3674569962: Error during data ingestion process: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+[2024-12-18 11:00:25,512: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 11:00:25,516: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 11:00:25,519: INFO: common: created directory at: artifacts]
+[2024-12-18 11:00:31,364: ERROR: 231272183: Error during data ingestion process: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+[2024-12-18 11:08:15,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 11:08:15,279: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 11:08:15,283: INFO: common: created directory at: artifacts]
+[2024-12-18 11:08:20,771: ERROR: 231272183: Error during data ingestion process: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+[2024-12-18 11:15:48,338: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 11:15:48,342: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 11:15:48,345: INFO: common: created directory at: artifacts]
+[2024-12-18 11:15:55,733: ERROR: 231272183: Error during data ingestion process: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+[2024-12-18 11:19:49,931: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-18 11:19:49,935: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-18 11:19:49,939: INFO: common: created directory at: artifacts]
+[2024-12-18 11:20:16,826: INFO: 461438356: Downloaded artifacts/data_ingestion/data.zip with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F0D6:157CD7:D5325:10C5B1:67625CEA
+Accept-Ranges: bytes
+Date: Wed, 18 Dec 2024 05:49:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21740-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1734500997.855487,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cacbf909734cdd3bbf43e38755b12f446930420d
+Expires: Wed, 18 Dec 2024 05:54:56 GMT
+Source-Age: 241
+
+]
+[2024-12-18 12:17:02,288: INFO: main: >>>>>>>>>stage Data Ingestion Stage started <<<<<<]
+[2024-12-18 12:17:02,295: INFO: common: created directory at: artifacts]
+[2024-12-18 12:17:02,295: ERROR: main: __init__() got an unexpected keyword argument 'config']
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    data_ingestion.main()
+  File "C:\Users\user\Downloads\Text_Summarizer-main\src\textSummariser\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+  File "C:\Users\user\Downloads\Text_Summarizer-main\src\textSummariser\config\configuration.py", line 23, in __init__
+    self.data_ingestion_config = DataIngestionConfig(config=data_ingestion_section)
+TypeError: __init__() got an unexpected keyword argument 'config'
+[2024-12-18 12:30:33,329: INFO: main: >>>>>>>>>stage Data Ingestion Stage started <<<<<<]
+[2024-12-18 12:30:33,335: INFO: common: created directory at: artifacts]
+[2024-12-18 12:30:33,336: ERROR: main: 'DataIngestionConfig' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    data_ingestion.main()
+  File "C:\Users\user\Downloads\Text_Summarizer-main\src\textSummariser\pipeline\stage_01_data_ingestion.py", line 20, in main
+    data_ingestion_config.download_file()
+AttributeError: 'DataIngestionConfig' object has no attribute 'download_file'
+[2024-12-18 12:50:54,340: INFO: main: >>>>>>>>>stage Data Ingestion Stage started <<<<<<]
+[2024-12-18 12:50:54,357: INFO: common: created directory at: artifacts]
+[2024-12-18 12:50:54,556: INFO: data_ingestion: artifacts\data_ingestion\data.zip already exists.]
+[2024-12-18 12:50:55,005: INFO: data_ingestion: Extracted files to artifacts\data_ingestion]
+[2024-12-18 12:50:55,006: INFO: main: >>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<
+
+x==============x]
