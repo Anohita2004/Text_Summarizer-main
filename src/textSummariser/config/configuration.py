@@ -35,7 +35,7 @@ from textSummariser.constants import *
 from textSummariser.utils.common import read_yaml, create_directories
 from textSummariser.entity import DataIngestionConfig
 from textSummariser.entity import DataValidationConfig
-
+from textSummariser.entity import DataTransformationConfig
 class ConfigurationManager:
     def __init__(self, config_filepath=CONFIG_FILE_PATH, params_filepath=PARAMS_FILE_PATH):
         # Load the configuration and parameters from YAML files
@@ -72,3 +72,26 @@ class ConfigurationManager:
         )  
         
         return data_validation_config     
+    
+    def get_data_transformation_config(self) -> DataTransformationConfig:
+        # Check the structure of the loaded config
+        print("Loaded config:", self.config)
+
+        # Assuming self.config is a dictionary with a 'data_transformation' section
+        config = self.config.get('data_transformation', None)
+        
+        if config is None or not all(key in config for key in ['root_dir', 'data_path', 'tokenizer_name']):
+            raise KeyError("Missing required keys in 'data_transformation' configuration.")
+        
+        # Debug print to check config structure
+        print("Data Transformation Config loaded:", config)
+        
+        create_directories([config['root_dir']])  # Ensure root_dir exists
+        
+        data_transformation_config = DataTransformationConfig(
+            root_dir=config['root_dir'],
+            data_path=config['data_path'],
+            tokenizer_name=config['tokenizer_name']
+        )
+        
+        return data_transformation_config

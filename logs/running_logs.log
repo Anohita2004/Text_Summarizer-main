@@ -140,3 +140,33 @@ x==============x]
 [2024-12-18 20:28:26,211: INFO: main: >>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<
 
 x==============x]
+[2024-12-18 20:58:42,434: INFO: config: PyTorch version 2.4.1 available.]
+[2024-12-18 22:42:47,449: INFO: common: created directory at: artifacts]
+[2024-12-18 22:42:47,465: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-19 06:54:29,310: INFO: config: PyTorch version 2.4.1 available.]
+[2024-12-19 06:54:46,015: INFO: common: created directory at: artifacts]
+[2024-12-19 06:54:46,019: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-19 07:00:18,445: INFO: common: created directory at: artifacts]
+[2024-12-19 07:00:18,449: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-19 07:10:19,097: INFO: common: created directory at: artifacts]
+[2024-12-19 07:10:19,119: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-19 07:28:06,005: INFO: config: PyTorch version 2.4.1 available.]
+[2024-12-19 07:28:10,890: INFO: main: >>>>>>>>>stage Data Ingestion Stage started <<<<<<]
+[2024-12-19 07:28:10,900: INFO: common: created directory at: artifacts]
+[2024-12-19 07:28:10,902: INFO: data_ingestion: artifacts\data_ingestion\data.zip already exists.]
+[2024-12-19 07:28:11,150: INFO: data_ingestion: Extracted files to artifacts\data_ingestion]
+[2024-12-19 07:28:11,151: INFO: main: >>>>>>>>>> stage Data Ingestion Stage completed <<<<<<<<<<<<
+
+x==============x]
+[2024-12-19 07:28:11,151: INFO: main: >>>>>>>>>stage Data Validation Stage started <<<<<<]
+[2024-12-19 07:28:11,159: INFO: common: created directory at: artifacts]
+[2024-12-19 07:28:11,162: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-19 07:28:11,173: INFO: main: >>>>>>>>>> stage Data Validation Stage completed <<<<<<<<<<<<
+
+x==============x]
+[2024-12-19 07:28:11,174: INFO: main: >>>>>>>>>stage Data Transformation Stage started <<<<<<]
+[2024-12-19 07:28:11,187: INFO: common: created directory at: artifacts]
+[2024-12-19 07:28:11,259: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-19 07:28:34,248: INFO: main: >>>>>>>>>> stage Data Transformation Stage completed <<<<<<<<<<<<
+
+x==============x]

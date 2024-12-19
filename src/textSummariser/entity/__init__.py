@@ -13,3 +13,9 @@ class DataValidationConfig:
     root_dir: Path
     STATUS_FILE: str
     ALL_REQUIRED_FILES: list    
+    
+@dataclass(frozen=True)  # Immutable configuration object
+class DataTransformationConfig:
+    root_dir: Path        # Directory to save transformed datasets
+    data_path: Path       # Path to the input dataset
+    tokenizer_name: str   # Tokenizer name as a string    
