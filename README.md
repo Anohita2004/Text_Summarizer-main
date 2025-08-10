@@ -1,11 +1,30 @@
-## End to End Text Summariser
+# 📝 Text Summarizer – End-to-End NLP App
 
-## Workflows:
-1. Update config.yaml
-2. Update params.yaml
-3. Update entity
-4. Update the configuration manager in src config
-5. update the components
-6. update the pipeline
-7. update the main.py
-8. update the app.py
+A simple yet powerful **Text Summarization** application built using **Hugging Face Transformers** and **Gradio**.  
+This app takes long text passages and generates concise summaries, making it easier to understand large volumes of text quickly.
+
+🚀 **Live Demo:** [Click here to try it on Hugging Face Spaces](https://huggingface.co/spaces/Anohita/Text_Summariser)
+
+---
+
+## 📌 Features
+
+- Summarizes any English text into concise form
+- Built with **Hugging Face Transformers**
+- User-friendly **Gradio interface**
+- Instant, real-time processing in the browser
+- Deployed seamlessly on Hugging Face Spaces
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3**
+- **Hugging Face Transformers** – NLP model for summarization
+- **Gradio** – Web UI for the app
+- **Hugging Face Spaces** – Free hosting platform
+
+---
+
+## 📂 Project Structure
+
